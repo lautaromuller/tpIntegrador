@@ -1,0 +1,49 @@
+.color1{
+    background-color: rgb(94, 220, 94);
+}
+.color2{
+    background-color: rgb(59, 141, 59);
+}
+body{
+    background-color: rgb(207, 255, 172);
+}
+.color{
+    background-color: rgb(59, 141, 59);
+}
+
+.caja-apellido, .caja-nombre{
+    margin-top: 40px;
+    width: 50%;
+    padding-left: 3%;
+}
+
+#nombre, #apellido{
+    width: 95%;
+}
+
+.caja-email, .caja-provincia{
+    width: 100%;
+    padding-left: 3%;
+}
+
+#email, #provincia{
+    width: 98%;
+}
+
+.confirmacion{
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.mensaje{
+    margin-left: 5px;
+}
+
+.caja-boton{
+    margin-top: 80px;
+    text-align: center;
+}
+
+button{
+    width: 150px;
+}
