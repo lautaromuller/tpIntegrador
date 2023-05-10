@@ -1,0 +1,292 @@
+body{
+  background-image: url('images/image3.png');
+  
+  background-color: rgb(5, 14, 65);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+#logo2{
+  width: 40px;
+  margin-bottom: 8px;
+}
+
+
+.grid-item1{
+  display:inline-block;
+  
+}
+#name2{
+  font-family: 'DynaPuff', cursive;
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: 10px;
+  margin-left: 5px;
+
+}
+#sor{
+  
+  font-family: 'Rampart One', cursive;
+  font-size: 50px;
+
+}
+
+.color{
+    border: 1px solid;
+    background-color: rgba(10, 14, 68, 0.658);
+}
+
+ #imagen {
+vertical-align: default;
+ }
+
+ .title{
+  margin-top: 70px;
+ }
+
+ #form {
+  margin-top: 50px;
+ }
+
+ .grid-item{
+  vertical-align:center;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+ margin-left: 30%;
+ }
+
+ #img1{
+  margin-top: 20px;
+  height: 150px;
+  width: 160px;
+ }
+
+#img2{
+  margin-top: -120px;
+  margin-bottom: 100px;
+  margin-left: 25px;
+  width: 190px;
+}
+
+.descripcion{
+    border: 2px solid rgba(230, 119, 45, 0.726) ;
+    background-color: rgba(10, 14, 68, 0.658);
+}
+ 
+#como{
+ margin-top: -20px;
+  text-align:left;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#gana{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+ #cg{
+ font-size: 20px;
+ display: block;
+ text-align: center;
+}
+.aux{
+    box-sizing: border-box;
+    padding: 10px 50px;
+}
+
+#formulario{
+    border: 2px solid rgba(230, 119, 45, 0.726);
+    background-color: rgba(10, 14, 68, 0.658);
+    border-left: 0;
+  
+}
+
+#sorteo{
+    background-color: rgb(230, 119, 45);
+    height: 70px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 25px auto;
+}
+
+section h2{
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+  background: #141f5c00;
+  color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+form label,
+
+form input,
+
+form button {
+  border: 0;
+  margin-bottom: 3px;
+  display: block;
+  width: 100%;
+}
+
+form input {
+  border-radius: 7px;
+  height: 25px;
+  line-height: 25px;
+  background: #fff;
+  color: #000;
+  padding: 0 6px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form button {
+  border-radius: 7px;
+  background: #2abadb; 
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+    background: #ff4680;
+    color: #fff;
+}
+
+.caja-boton{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+form .error {
+  color: #ff0000;
+
+}
+
+#password, #email, #firstname, #lastname{
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 14px;
+}
+
+#cont{
+  height: px;
+  border: 1px solid;
+  background-color: rgba(10, 14, 68, 0.658);
+ margin-top: 90px;  
+}
+#consult{
+  background-color: #ff840088;
+}
+
+#consult input, #consult button{
+  text-align: center;
+  border-radius: 10px;
+}
+
+#consult textarea{
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.avatar{
+  margin-top: 15px;
+}
+
+.avatar:hover{
+  margin-top: -15px;
+  width: 168px;
+}
+
+#foot{
+
+}
+.caja-imagen{
+  margin-top: 30px;
+} 
+.sobre{
+  margin-top: 40px;
+}
+
+.caja-redes{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pie-pagina .container-fluid {
+  width: 100%;
+  max-width:1200px ;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+ padding: 45px 0px;
+}
+.pie-pagina .part1 .col figure {
+  width: 100%;
+  height: 100%;
+  display:inline-block;
+  justify-content: center;
+
+
+}
+img{
+  width: 150px;
+  
+}
+.pie-pagina .part1 .col, .sobre {
+  color: #fff;
+  margin-top: 40px;
+  
+  font-size: 20px;
+  margin-right: 10px;
+}
+.pie-pagina .part1 .col, #somos {
+  color:#efefef;
+  margin-bottom: 0px; 
+ 
+  margin-right: 10px;
+}
+
+#redes a {
+  display:inline-block;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+
+}
+
+.pie-pagina, .part1, .redsocial, #redes {
+  text-decoration:none;
+  color:#fff;
+  margin-right: 10px;
+  transition: all 300ms ease;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.pie-pagina, .part1, .redsocial, #redes:hover {
+  color: rgb(39, 43, 100);
+}

@@ -4,85 +4,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo integrador</title>
+    <title>COMPUTECH</title>
     <link 
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" 
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
     crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/ico" />
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    
+    <script src="form-validation.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    
+    <script src="https://kit.fontawesome.com/8f7e161149.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Rampart+One&family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="conteiner-fluid color">
+        <div id=name class="container-fluid color">
             <div class="row"> 
-            <div class="col">
-                <h1 class="text-center"> Titulo</h1>
-            </div>
-    </header>
-    <div class="container">
-        <h2 class="text-center">Sorteo</h2>
-        <div class="row mt-5">
-            <div class="col-xl-4 col-lg-6 col-xs-12 p-5 color1">
-                <h2>Descripcion</h2>
-            </div>
-            <div class="col-xl-8 col-lg-6 col-xs-12 p-2 color2">
-                <form action="" id="form">
-                    <h2 class="text-white text-center">formulario</h2>
-                    <div class="datos-usuario">
-                        <div class="caja-nombre">
-                            <p>Nombre*<br>
-                            <input type="text" name="nombre" id="nombre" required></p>
-                        </div>
-                        <div class="caja-apellido">
-                            <p for="apellido">Apellido*<br>
-                            <input type="text" name="apellido" id="apellido" required></p>
-                        </div>
+                <div class="col">
+                    <div  id="logis" class="grid-container">
+                        <div class="grid-item1"><img id="logo2" src="images/clipart2381085.png" alt="logo"></div>
+                        <div class="grid-item1"><h1 id=name2 class="text-white text-start" > COMPUTECH</h1></div>
                     </div>
-                    <div class="caja-email">
-                        <p for="email">Correo electrónico*<br>
-                        <input type="email" name="email" id="email" required></p>
-                    </div>
-                    <div class="caja-provincia">
-                        <p>Provincia*<br>
-                        <select name="provincia" id="provincia" required></p>
-                            <option value="">Seleccione Provincia</option>
-                            <option value="buenosAires">Buenos Aires</option>
-                            <option value="caba">Ciudad Autónoma de Buenos Aires</option>
-                            <option value="catamarca">Catamarca</option>
-                            <option value="chaco">Chaco</option>
-                            <option value="chubut">Chubut</option>
-                            <option value="cordoba">Córdoba</option>
-                            <option value="corrientes">Corrientes</option>
-                            <option value="entreRios">Entre Ríos</option>
-                            <option value="formosa">Formosa</option>
-                            <option value="jujuy">Jujuy</option>
-                            <option value="laPampa">La Pampa</option>
-                            <option value="laRioja">La Rioja</option>
-                            <option value="mendoza">Mendoza</option>
-                            <option value="misiones">Misiones</option>
-                            <option value="neuquen">Neuquén</option>
-                            <option value="rioNegro">Río Negro</option>
-                            <option value="salta">Salta</option>
-                            <option value="sanJuan">San Juan</option>
-                            <option value="sanLuis">San Luis</option>
-                            <option value="santaCruz">Santa Cruz</option>
-                            <option value="santaFe">Santa Fe</option>
-                            <option value="santiagoDelEstero">Santiago del Estero</option>
-                            <option value="tierraDelFuego">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
-                            <option value="tucuman">Tucumán</option>
-                        </select>
-                    </div>
-                    <div class="confirmacion">
-                         <input type="checkbox" id="notificacion" checked><label class="mensaje" for="notificacion">Deseo recibir notificaciones de mas sorteos</label>
-                    </div>
-                    <div class="caja-boton">
-                        <button type="submit">Enviar</button>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
+    </header>
+    <div id="sorteo" class="container-fluid text-center">
+        <div class="row">
+            <div class="col">
+                <h2 Id='sor' class="text-white text-center">¡SORTEO!</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid aux">
+        <div class="row mt-2">
+            <div class="col-xl-6 col-lg-6 col-xs-12 p-5  descripcion">
+                <h2 id='gana' class="text-white text-start">PREMIO: Gana una Notebook Samsung Galaxy Book Go Gen 2 Slim para que puedas disfrutarla al máximo.</h2>
+                <ul class="text-white">
+                    <h4 id="cg">Características generales</h4>
+                    <li>Memoria RAM: 4gb</li>
+                    <li>Almacenamiento: 64gb</li>
+                    <li>Pantalla: 1920 px X 1080 px</li>
+                    <li>Procesador: Qualcomm-Snapdragon 7c Gen 2; 2.55GHz</li>
+                </ul>
+                <div  id="imagen" class="grid-container">
+                    <div class="grid-item"><img id="img1" src="images/organgecircle.png" alt=""></div>
+                    <div class="grid-item"><img  id="img2" src="images/pngkey.com-laptop-png-21049.png" alt=""></div>
+                </div>
+                <p id="como" class="text-white">Solo tienes que llenar el formulario y ya estarás participando, tienes tiempo hasta el 25/04/2023.</p>
+            </div>
+            <section id="formulario" class="col-xl-6 col-lg-6 col-xs-12 p-2">
+                <div class="container-fluid">
+                    <h2 class="title text-white">Formulario</h2>
+                    <form action="#" name="formulario" id="form">          
+                        <label for="firstname">Nombre</label>              
+                        <input type="text" name="firstname" id="firstname" placeholder="John">                
+                        <label for="lastname">Apellido</label>                
+                        <input type="text" name="lastname" id="lastname" placeholder="Doe">                
+                        <label for="email">Email</label>                
+                        <input type="email" name="email" id="email" placeholder="john@doe.com">                
+                        <label for="password">Contraseña</label>                
+                        <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;">
+                        <div class="caja-boton">
+                            <button type="submit">Participar</button>
+                        </div>                
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <section id="consult" class="text-white container-fluidformularioConsulta">
+            <div class="container-fluid text-center formu">
+                <div class="row mt-2">
+                    <div class="col p-2">
+                        <h2>Consultas</h2>
+                <form action="#" name="cupon" id="formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" ><br>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido"><br>
+                    <label for="dni">DNI:</label>
+                    <input type="number" id="dni" name="dni"><br>
+                    <label for="mensaje">Consulta</label>
+                    <textarea name="consulta" id="consulta" rows="1"></textarea><br>
+                    <button type="sumit" onclick="generarPDF()">Generar comprobante de consulta</button>
+                </form>
+            
+                <script>
+                    function generarPDF() {
+    
+                        var nombre = document.getElementById('nombre').value;
+                        var apellido = document.getElementById('apellido').value;
+                        var dni = document.getElementById('dni').value;
+                        var consulta = document.getElementById('consulta').value;
+    
+                        var doc = new jsPDF();
+    
+                        doc.text(20, 20, 'COMPUTECH');
+                        doc.text(20, 30, 'Nombre: ' + nombre);
+                        doc.text(20, 40, 'Apellido: ' + apellido);
+                        doc.text(20, 50, 'DNI: ' + dni);
+                        doc.text(20, 60, 'Consulta: '+ consulta)
+            
+                        doc.save('formulario.pdf');
+                    }
+                </script>
+                    </div>
+                </div>
+        </div>
+        </section>
+    
+        <div class=" container-fluid text-center text-white presentacion">
+            <div class="row mt-2">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 p-3 text-center">
+                    <img id="avatar" src="images/avatar1.png" alt="avatar Bruna">
+                    <p class="nombres">Bruna Grosso</p>
+                    <p >Tengo 21, soy de Cordoba y actualmente estoy haciendo dos tecnicaturas. La primera es una tecnicatura en traduccion 
+                        del ingles y la segunda una tecnicatura en ciencias de datos e inteligencia artificial.</p>
+                 </div>
+                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 p-3 text-center ">
+                     <img id="avatar" src="images/avatar2.png" alt="avatar Lauti">
+                     <p class="nombres">Lautaro Müller</p>
+                     <p>Tengo 20 años, soy de Villa Maria. Estudio Diseño grafico y me gusta el area de la tecnologia.</p>
+                 </div>
+                 <div class="col-xl-4 col-lg-4 col-md-12 col-xs-12 p-3 text-center">
+                     <img id="avatar" src="images/avatar3.png" alt="avatar Nati">
+                     <p class="nombres">Natalia Torres</p>
+                     <p >Tengo 20 años, soy de Buenos Aires. Actualmente estudio Ingenieria en computación y tengo muchas ganas de seguir aprendiendo sobre el mundo de la programación.</p>
+                 </div>
+            </div>
+        </div>
+
+        <footer id=foot class="pie-pagina">
+            <div id='cont' clase="container-fluid">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-xs-12 p-5 ">
+                        <figure class="caja-imagen">
+                            <a href="#">
+                                <img src="images/clipart2381085.png" alt="Logo de COMPUTECH">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-xs-12 p-5 ">
+                        <h2 class="sobre">SOBRE NOSOTROS</h2>
+                        <p id="somos"> Para festejar la creación de nuestra página web decidimos realizar un sorteo para que nuestros clientes tengan la oportunidad de ganar uno de nuestros tantos buenos productos.</p>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-xs-12 p-5 caja-redes">
+                        <h2 class="sobre">SIGUENOS</h2>
+                        <div class="redsocial">
+                            <a id='redes' href="#" class="fa fa-facebook"></a>
+                            <a id='redes'href="#"class="fa fa-instagram"></a>
+                            <a id='redes'href="#" class="fa fa-twitter"></a>
+                        </div>
+                    </div>
+                    <div class= 'text-white text-center'>
+                        <p><small>&copy; 2023 <b>COMPUTECH</b> - Todos los derechos reservados.</small></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
